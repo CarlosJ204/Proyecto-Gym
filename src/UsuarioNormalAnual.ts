@@ -7,7 +7,7 @@ export class UsuarioNormalAnual extends UsuarioNormal {
         edad: number,
         peso: number,
         mensualidad: number,
-        descuentoAnual: number = 5,
+        descuentoAnual: number = 5
     ) {
         super(nombre, sexo, altura, edad, peso,mensualidad,descuentoAnual);
     }
