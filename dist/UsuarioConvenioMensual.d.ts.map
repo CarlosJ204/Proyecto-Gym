@@ -1,0 +1,1 @@
+{"version":3,"file":"UsuarioConvenioMensual.d.ts","sourceRoot":"","sources":["../src/UsuarioConvenioMensual.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AACpD,qBAAa,sBAAuB,SAAQ,eAAe;gBAEnD,MAAM,EAAE,MAAM,EACd,IAAI,EAAE,MAAM,EACZ,MAAM,EAAE,MAAM,EACd,IAAI,EAAE,MAAM,EACZ,IAAI,EAAE,MAAM,EACZ,WAAW,EAAE,MAAM,EACnB,iBAAiB,GAAE,MAAW;CAIrC"}

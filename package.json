@@ -1,0 +1,22 @@
+{
+  "name": "proyecto-gym-corte-1",
+  "version": "1.0.0",
+  "description": "Proyecto gimnasio en TypeScript (CommonJS)",
+  "main": "dist/Main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Main.js",
+    "dev": "ts-node src/Main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.5"
+  }
+}
