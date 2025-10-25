@@ -12,7 +12,6 @@ function main(): void {
   const connection = db.getConnection();
  
 
-
   const fabricaAnual: IFabricaPlanes = new FabricaPlanAnual();
   const fabricaMensual: IFabricaPlanes = new FabricaPlanMensual();
 
@@ -27,7 +26,6 @@ function main(): void {
   console.log("U3:", usuario3.tarifa(), usuario3.mostrarInformacion());
   console.log("U4:", usuario4.tarifa(), usuario4.mostrarInformacion());
   console.log("Conexion Base de datos ✅");
-
 
 }
 
