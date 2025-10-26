@@ -11,7 +11,6 @@ function main(): void {
   const db = DataBase.getInstance();
   const connection = db.getConnection();
  
-
   const fabricaAnual: IFabricaPlanes = new FabricaPlanAnual();
   const fabricaMensual: IFabricaPlanes = new FabricaPlanMensual();
 
