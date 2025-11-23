@@ -23,10 +23,10 @@ class PlanBase implements IPlanDeEntrenamiento {
     public getTipoPlan(): string {
         if (this.entrenador != "NA" || this.dieta != "NA") {
             if (this.entrenador == "NA" && this.dieta != "NA") {
-                return "" + `Entrenador: ${this.entrenador}, Dieta: ${this.dieta}`;
+                return "Entrenamiento Base " + `Entrenador: ${this.entrenador}, Dieta: ${this.dieta}`;
             }
             if (this.entrenador != "NA" && this.dieta == "NA") {
-                return "" + `Entrenador: ${this.entrenador}, Dieta: ${this.dieta}`;
+                return "Entrenamiento Base " + `Entrenador: ${this.entrenador}, Dieta: ${this.dieta}`;
             }
             return "" + `Entrenador: ${this.entrenador}, Dieta: ${this.dieta}`;
         }
