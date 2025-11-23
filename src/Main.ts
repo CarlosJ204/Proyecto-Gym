@@ -61,8 +61,8 @@ function main(): void  {
   pagoTarifa.setTotalFee(adaptador.getCostoTotal());
   strategy = new PayByCreditCard(550000,"1234567890123456","123","12/25");
   pagoTarifa.processPayment(strategy);
-  const paymentSuccessful = pagoTarifa.getTotalFee();
-  if (strategy.pay(paymentSuccessful)) {
+  const payment = pagoTarifa.getTotalFee();
+  if (strategy.pay(payment)) {
     pagoTarifa.setClosed();
   }
   else {
@@ -77,8 +77,8 @@ function main(): void  {
   pagoTarifa.setTotalFee(adaptador2.getCostoTotal());
   strategy2 = new PayByCash(70000);
   pagoTarifa.processPayment(strategy2);
-  const paymentSuccessful2 = pagoTarifa.getTotalFee();
-  if (strategy2.pay(paymentSuccessful2)) {
+  const payment2 = pagoTarifa.getTotalFee();
+  if (strategy2.pay(payment2)) {
     pagoTarifa.setClosed();
   }
   else {

@@ -1,9 +1,9 @@
-import { IPayStrategy as PayStrategy } from "./IPayStrategy";
+import { IPayStrategy as IPayStrategy } from "./IPayStrategy";
 export class PagoTarifa {
     protected gymFee = 0;
     protected isClose = false;
     
-    processPayment(strategy: PayStrategy): void {
+    processPayment(strategy: IPayStrategy): void {
         strategy.collectPaymentDetails();
     }
     setTotalFee(fee: number): void {
